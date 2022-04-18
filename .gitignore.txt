@@ -1,3 +1,0 @@
-node_modules/
-miweb_en_bootstrap/
-*.txt
