@@ -1,0 +1,294 @@
+// main content
+
+.unete {
+
+	text-align: center;
+}
+
+.uneteCard {
+
+	
+	margin: 2em 1em;
+	vertical-align: top;
+
+}
+
+#tarjetas	{
+
+text-align: center;
+
+}
+
+
+.tarjeta {
+
+width: auto;
+text-align: center;
+vertical-align: top;
+padding: 1em 0;
+margin: 1em 0;
+
+
+		h2 {
+
+		padding: 1em ;
+
+		ol li {
+				color: white;
+				font-family: 'Open Sans' , sans-serif;
+				font-weight: 300;
+				font-size:1.5em ;
+				padding: 1em 1em;
+				list-style: none;
+			}
+		}
+}	
+
+.img_tarjeta {
+
+	padding: 1rem;
+}
+
+
+
+form ul li {
+
+	font-family: 'Open Sans',sans-serif;
+	font-size: 1.4rem;
+	padding: 1rem 1rem;
+
+	label	{
+
+	margin: 0 1rem ;
+	
+	}
+}
+
+.box__PrCards {
+
+ width: 90%;
+ padding: 1em 1.5em;
+ margin: 0.5em 2.5em;
+ border-radius: 1em;
+
+}
+
+* {
+
+font-family: 'Open Sans', sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+html{
+	font-size: 62.5%;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1,h2,h3,h4 {
+
+	font-family: 'Ubuntu' , sans-serif;
+
+}
+
+h1	{
+
+	font-size: 2.5em;
+}
+
+h2	{
+
+	font-size: 1.75em;
+}
+
+h3	{
+
+	font-size: 1.5em;
+}
+
+h4	{
+
+	font-size: 1em;
+}
+
+
+.MenuHorSep{
+
+	margin: 0 0.5rem;
+}
+
+.buttonStyle {
+
+	color: white;
+	padding: 1rem 1rem;
+	margin: 1rem 1rem;
+	background-color: #91CC00;
+	text-decoration: none;
+	border-radius: 1rem;
+	border: none;
+}
+
+button {
+
+		&:hover{
+
+	transition-duration: 0.4s;
+	color: white;
+	padding: 1rem 1rem;
+	margin: 1rem 1rem;
+	background-color: #003658;
+	text-decoration: none;
+	border-radius: 1rem;
+	border: none;
+	}
+}
+.centrar__Element {
+
+	text-align: center;
+}
+
+.title__BigVSpace--center {
+
+	padding: 2rem 0;
+
+}
+
+.title__MDVSpace--center {
+
+	padding: 1rem 0;
+
+}
+
+.title__SMVSpace--center {
+
+	padding: 0.5rem 0;
+
+}
+
+.sepHor {
+
+	margin: 0 1rem;
+}
+
+.separator__BigSpace {
+
+	height: 2rem;
+
+}
+
+.textBox__main {
+
+	width: auto;
+
+}
+
+
+
+.text__SMVHSpace {
+
+	padding: 0.5rem 0.5rem;
+
+}
+
+.text__MDVHSpace {
+
+	padding: 1rem 1rem;
+
+}
+.roundCorner {
+
+	border-radius: 1.5rem;
+}
+
+
+.bgBronce {
+
+	background-color: #A55219 ;
+}
+
+
+.colorBrz {
+
+	color: #A55219;
+}
+
+.bgPlata {
+
+
+	background-color: #616161 ;
+}
+
+.colorPlt {
+
+	color: #616161;
+}
+
+
+
+.bg_Oro {
+
+
+	background-color: #C7AE36;
+}
+
+.colorOro {
+
+	color: #C7AE36;
+}
+
+.dkColor {
+
+	color: #000;
+}
+
+
+.colorBlue {
+
+	color: #003658;
+
+}
+
+.colorWt {
+
+	color: white;
+}
+
+.fontS {
+
+	font-size: 2rem;
+}
+
+.pBig {
+
+	font-size: 1.5rem;
+
+}
+	
+#features1{
+
+marging: 2em 0em;
+text-align: right;
+color: white;
+background-image: url(../img/ventajas-padel-socios-padel-pass-card.jpg);
+background-repeat: no-repeat;
+padding-left: 3em;
+padding-right: 1em;
+padding-top: 1em;
+padding-bottom: 1em;
+			ul {
+
+				margin-top: 1em;
+
+			li {
+
+				margin: 1em 0.2em;
+
+			}
+		}
+
+}
