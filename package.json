@@ -297,5 +297,13 @@
     "yargs": "^17.4.0",
     "yargs-parser": "^20.2.9"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanseldorf19/sass2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hanseldorf19/sass2/issues"
+  },
+  "homepage": "https://github.com/hanseldorf19/sass2#readme",
   "description": ""
 }

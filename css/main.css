@@ -7815,6 +7815,9 @@ textarea.form-control-lg {
 /* verde tenis*/
 /* azul claro*/
 /* gris claro*/
+/* bronze*/
+/* Plata*/
+/* Oro*/
 #top_nav {
   font-family: "Open Sans", sans-serif;
   background-color: #587a96;
@@ -7919,24 +7922,21 @@ h4, .h4 {
 .MenuHorSep {
   margin: 0 0.5rem; }
 
-.buttonStyle {
-  color: white;
+.buttonStyle, .buttonStyle2 {
+  color: #003658;
   padding: 1rem 1rem;
   margin: 1rem 1rem;
   background-color: #91CC00;
   text-decoration: none;
   border-radius: 1rem;
   border: none; }
+  .buttonStyle:hover, .buttonStyle2:hover {
+    color: white;
+    background-color: #003658;
+    cursor: pointer; }
 
-button:hover {
-  transition-duration: 0.4s;
-  color: white;
-  padding: 1rem 1rem;
-  margin: 1rem 1rem;
-  background-color: #003658;
-  text-decoration: none;
-  border-radius: 1rem;
-  border: none; }
+.buttonStyle2 {
+  background-color: #003658; }
 
 .centrar__Element {
   text-align: center; }

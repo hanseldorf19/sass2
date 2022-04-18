@@ -122,31 +122,33 @@ h4	{
 	margin: 0 0.5rem;
 }
 
+
+
 .buttonStyle {
 
-	color: white;
+	color: #003658;
 	padding: 1rem 1rem;
 	margin: 1rem 1rem;
 	background-color: #91CC00;
 	text-decoration: none;
 	border-radius: 1rem;
 	border: none;
-}
 
-button {
+	&:hover {
 
-		&:hover{
+			color: white;
+			background-color: #003658;
+			cursor: pointer;
 
-	transition-duration: 0.4s;
-	color: white;
-	padding: 1rem 1rem;
-	margin: 1rem 1rem;
-	background-color: #003658;
-	text-decoration: none;
-	border-radius: 1rem;
-	border: none;
 	}
 }
+
+.buttonStyle2 {
+	@extend .buttonStyle;
+	background-color: #003658;
+	
+}
+
 .centrar__Element {
 
 	text-align: center;
@@ -292,3 +294,4 @@ padding-bottom: 1em;
 		}
 
 }
+
